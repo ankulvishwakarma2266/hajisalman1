@@ -1,239 +1,269 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="nifty-page">
+  <div class="nifty-logo">
+    <img src="YOUR_LOGO_IMAGE_URL" alt="King Of Nifty Academy">
+  </div>
 
-<title>Trade With Munaaf</title>
+  <div class="nifty-badge">
+    📈 TRADING LEARNING COMMUNITY
+  </div>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <h1>King Of Nifty</h1>
+
+  <p class="nifty-description">
+    Learn market concepts, chart reading and risk-management
+    basics through our Telegram community.
+  </p>
+
+  <a class="nifty-button"
+     href="YOUR_TELEGRAM_CHANNEL_LINK"
+     target="_blank" rel="noopener">
+    JOIN FREE TELEGRAM CHANNEL
+  </a>
+
+  <p class="nifty-note">
+    Free access · Educational content · Telegram
+  </p>
+
+  <div class="nifty-card">
+    <h2>What You Can Explore</h2>
+
+    <div class="nifty-item">
+      <span>📊</span>
+      <p>Market analysis and educational discussions</p>
+    </div>
+
+    <div class="nifty-item">
+      <span>📈</span>
+      <p>Nifty &amp; market chart-reading concepts</p>
+    </div>
+
+    <div class="nifty-item">
+      <span>🎯</span>
+      <p>Technical-analysis learning concepts</p>
+    </div>
+
+    <div class="nifty-item">
+      <span>🛡️</span>
+      <p>Risk-management and trading awareness</p>
+    </div>
+
+    <div class="nifty-item">
+      <span>🚀</span>
+      <p>Regular educational market updates</p>
+    </div>
+  </div>
+
+  <a class="nifty-button nifty-bottom-button"
+     href="YOUR_TELEGRAM_CHANNEL_LINK"
+     target="_blank" rel="noopener">
+    JOIN FREE TELEGRAM CHANNEL
+  </a>
+
+  <p class="nifty-footer">
+    Tap the button above to continue
+  </p>
+
+  <p class="nifty-disclaimer">
+    Educational purposes only. Trading involves risk.
+    No profit is guaranteed.
+  </p>
+</div>
 
 <style>
+  .nifty-page {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 25px 25px 30px;
+    background: linear-gradient(180deg, #06131b 0%, #020609 100%);
+    color: #f6f8fb;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    overflow: hidden;
+  }
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Poppins',sans-serif;
-}
+  .nifty-page * {
+    box-sizing: border-box;
+  }
 
-body{
-background:#0f172a;
-display:flex;
-justify-content:center;
-align-items:center;
-min-height:100vh;
-color:#fff;
-}
+  .nifty-logo {
+    width: 250px;
+    height: 250px;
+    max-width: 75%;
+    margin: -55px auto 35px;
+    padding: 8px;
+    border: 5px solid #65d9ff;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 25px #008ed855;
+    overflow: hidden;
+  }
 
-/* CARD */
+  .nifty-logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+  }
 
-.container{
-width:95%;
-max-width:420px;
-padding:30px 25px;
-border-radius:18px;
+  .nifty-badge {
+    display: inline-block;
+    padding: 11px 20px;
+    border: 1px solid #0879a1;
+    border-radius: 35px;
+    color: #53c8ff;
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 17px;
+  }
 
-background:rgba(255,255,255,0.05);
-backdrop-filter:blur(12px);
+  .nifty-page h1 {
+    margin: 0 0 17px;
+    color: #fff;
+    font-size: 46px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
 
-border:1px solid rgba(255,255,255,0.08);
+  .nifty-description {
+    margin: 0 auto 34px;
+    color: #b6c1cb;
+    font-size: 23px;
+    line-height: 1.6;
+  }
 
-box-shadow:0 20px 60px rgba(0,0,0,0.6);
-text-align:center;
-}
+  .nifty-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 94px;
+    padding: 20px 12px;
+    border: 1px solid #8ce7ff;
+    border-radius: 20px;
+    background: linear-gradient(110deg, #079fe8, #05609d);
+    box-shadow: 0 0 20px #0089c533;
+    color: #fff !important;
+    font-size: 27px;
+    line-height: 1.3;
+    font-weight: 700;
+    text-decoration: none !important;
+    transition: opacity .2s;
+  }
 
-/* LOGO */
+  .nifty-button:hover {
+    opacity: .9;
+  }
 
-.logo{
-width:80px;
-height:80px;
-border-radius:50%;
-border:2px solid #FFD700;
-margin-bottom:12px;
-}
+  .nifty-note {
+    margin: 14px 0 25px;
+    color: #829aa9;
+    font-size: 18px;
+  }
 
-/* TEXT */
+  .nifty-card {
+    padding: 26px 26px 12px;
+    border: 1px solid #29343b;
+    border-radius: 28px;
+    background: #0a1116;
+    text-align: left;
+  }
 
-h1{
-font-size:22px;
-color:#FFD700;
-margin-bottom:6px;
-}
+  .nifty-card h2 {
+    margin: 3px 0 22px;
+    color: #f7f8fa;
+    text-align: center;
+    font-size: 27px;
+  }
 
-h2{
-font-size:15px;
-opacity:0.9;
-margin-bottom:10px;
-}
+  .nifty-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 19px 0;
+    border-bottom: 1px solid #20292e;
+  }
 
-.sub{
-font-size:13px;
-opacity:0.7;
-margin-bottom:18px;
-}
+  .nifty-item:last-child {
+    border-bottom: none;
+  }
 
-/* BUTTON */
+  .nifty-item span {
+    flex-shrink: 0;
+    font-size: 30px;
+  }
 
-.btn{
-display:block;
-text-decoration:none;
-background:#22c55e;
-color:#000;
-font-weight:700;
-padding:16px;
-border-radius:10px;
-margin:12px 0;
-transition:0.3s;
-}
+  .nifty-item p {
+    margin: 0;
+    color: #e3e8ec;
+    font-size: 21px;
+    line-height: 1.5;
+  }
 
-.btn:hover{
-background:#16a34a;
-transform:scale(1.03);
-}
+  .nifty-bottom-button {
+    margin-top: 26px;
+  }
 
-/* TRUST BOX */
+  .nifty-footer {
+    color: #829aa9;
+    font-size: 16px;
+  }
 
-.trust{
-background:rgba(0,255,150,0.08);
-padding:10px;
-border-radius:10px;
-font-size:13px;
-margin-bottom:15px;
-border:1px solid rgba(0,255,150,0.2);
-}
+  .nifty-disclaimer {
+    margin-top: 25px;
+    color: #82919a;
+    font-size: 12px;
+    line-height: 1.6;
+  }
 
-/* LIST */
+  @media (max-width: 480px) {
+    .nifty-page {
+      padding: 20px 25px 28px;
+    }
 
-.points{
-list-style:none;
-font-size:14px;
-text-align:left;
-margin:15px 0;
-}
+    .nifty-logo {
+      width: 250px;
+      height: 250px;
+      margin-top: -45px;
+      margin-bottom: 35px;
+    }
 
-.points li{
-margin:8px 0;
-}
+    .nifty-badge {
+      padding: 10px 15px;
+      font-size: 17px;
+    }
 
-/* URGENCY */
+    .nifty-page h1 {
+      font-size: 38px;
+    }
 
-.timer{
-margin-top:10px;
-font-size:13px;
-color:#facc15;
-}
+    .nifty-description {
+      font-size: 21px;
+      line-height: 1.7;
+    }
 
-/* SOCIAL PROOF */
+    .nifty-button {
+      min-height: 94px;
+      font-size: 23px;
+      border-radius: 20px;
+    }
 
-.proof{
-margin-top:12px;
-font-size:12px;
-opacity:0.7;
-}
+    .nifty-card {
+      padding: 25px 26px 12px;
+    }
 
-/* FOOTER BRAND */
+    .nifty-card h2 {
+      font-size: 25px;
+    }
 
-.footer{
-margin-top:20px;
-font-size:12px;
-opacity:0.6;
-}
+    .nifty-item {
+      gap: 20px;
+      padding: 19px 0;
+    }
 
-.footer a{
-color:#38bdf8;
-text-decoration:none;
-font-weight:600;
-}
-
-.footer a:hover{
-text-decoration:underline;
-}
-
-/* RISK */
-
-.risk{
-margin-top:10px;
-font-size:11px;
-opacity:0.5;
-}
-
+    .nifty-item p {
+      font-size: 20px;
+    }
+  }
 </style>
-</head>
-
-<body>
-
-<div class="container">
-
-<img src="https://i.ibb.co/mVvw0DKJ/Salman-Image.jpg" class="logo">
-
-<h1>OFFICIAL HAJI SALMAN MEMON IN...</h1>
-<h2>NIFTY • BANKNIFTY • OPTIONS</h2>
-
-<p class="sub">
-Daily Intraday Trading Signals & Analysis
-</p>
-
-<!-- TOP BUTTON -->
-<a href="https://t.me/+2_RV4Tnax_gzNjU1" class="btn">
-🚀 Join Free Telegram Channel
-</a>
-
-<div class="trust">
-✔ Trusted by 5,000+ Traders <br>
-✔ Daily Consistent Setups
-</div>
-
-<ul class="points">
-<li>✔ 5–7 High Probability Trades</li>
-<li>✔ Exact Entry, SL & Target</li>
-<li>✔ Beginner Friendly Guidance</li>
-<li>✔ Live Market Updates</li>
-</ul>
-
-<!-- BOTTOM BUTTON -->
-<a href="https://t.me/+2_RV4Tnax_gzNjU1" class="btn">
-🚀 Join Free Telegram Channel
-</a>
-
-<div class="timer">
-⏳ Free Access Closing Soon
-</div>
-
-<div class="proof">
-📈 Limited Seats • Active Community
-</div>
-
-<p class="risk">
-⚠ Market investments are subject to risk
-</p>
-
-<!-- CLEAN FOOTER -->
-<div class="footer">
-Powered by 
-<a href="https://t.me/+2_RV4Tnax_gzNjU1" target="_blank">
-Ankul Ad Agency
-</a>
-</div>
-
-</div>
-
-</body>
-  <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1670010084787992');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1670010084787992&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
-</html>
